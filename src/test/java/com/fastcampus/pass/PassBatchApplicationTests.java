@@ -1,4 +1,4 @@
-package com.fastcampus.pass.pass_batch;
+package com.fastcampus.pass;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
