@@ -1,4 +1,4 @@
-package com.fastcampus.pass.adapter.message;
+package com.fastcampus.pass.adapter.message ;
 
 import com.fastcampus.pass.config.KakaoTalkMessageConfig;
 import org.springframework.http.MediaType;
@@ -12,6 +12,11 @@ public class KakaoTalkMessageAdapter {
     private final WebClient webClient;
 
     public KakaoTalkMessageAdapter(KakaoTalkMessageConfig config) {
+        float a = 1f;
+        a = 2;
+        int b = 3;
+        float d = b;
+        System.out.println("a = " + d);
         webClient = WebClient.builder()
                 .baseUrl(config.getHost())
                 .defaultHeaders(h -> {
